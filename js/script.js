@@ -20,7 +20,7 @@ let your_surname = prompt ("Inserisci il tuo cognome")
 let your_color = prompt ("Inserisci il tuo colore preferito")
 
 // 4- Concatenare i valori delle variabili concatenando anche il numero 21 alla fine della stringa
-document.getElementById("password").innerHTML= your_name + your_surname + your_color + "21";
+document.getElementById("password").innerHTML= "La tua password é:" + your_name + your_surname + your_color + "21";
 
 // 5- Visualizzare a schermo all'interno della pagina
-console.log(your_name + your_surname + your_color + "21");
+console.log("La tua password é:" + your_name + your_surname + your_color + "21");
